@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import "../work/q1/style.css";
+@import "../work/q2/style.css";
+@import "../work/q3/style.css";
+@import "../work/q4/style.css";
+@import "../work/q5/style.css";
+@import "../work/q6/style.css";
+@import "../work/q7/style.css";
 
 .clearfix::after {
   display: block;
