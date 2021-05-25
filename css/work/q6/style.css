@@ -59,16 +59,31 @@
 
 .layout_key_visual {
   overflow: hidden;
+  position: relative;
 }
 
-.layout_key_visual_images {
+.layout_key_visual_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  animation:rotate 1.1s linear infinite ;
+}
+
+.layout_key_visual_text {
   width: 200%;
   height: 540px;
+  font-size: 0;
 }
 
-.layout_key_visual img {
+.layout_key_visual p {
   width: 50%;
   height: 100%;
+  line-height: 540px;
+  font-size: 15vw;
+  display: inline-block;
 }
 
 @keyframes loop {
@@ -89,10 +104,19 @@
   }
 }
 
-.layout_key_visual_images img:first-child {
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.layout_key_visual_text p:first-child {
   animation: loop 20s -30s linear infinite;
 }
 
-.layout_key_visual_images img:last-child {
+.layout_key_visual_text p:last-child {
   animation: loop2 20s linear infinite;
 }
