@@ -16,11 +16,9 @@
 }
 
 .q5_inner_contents {
-  width: 500px;
-  padding: 20px 34px;
-  margin: 13px auto 0 auto;
+  padding: 30px 50px;
+  margin-top: 13px;
   background-color: #eee;
-  border: solid 1px#707070;
 }
 
 .q5_inner:last-child .q5_inner_contents {
@@ -36,7 +34,7 @@
 }
 
 .q5_white {
-  width: 200px;
+  width: 400px;
 }
 
 .q5_white_calc {
@@ -46,7 +44,7 @@
 
 .q5_float,
 .q5_white.q5_inline_block {
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .q5_float:first-child,
@@ -61,11 +59,12 @@
 
 .q5_table {
   display: table;
+  width: 100%;
 }
 
 .q5_table_cell {
   display: table-cell;
-  padding-left: 30px;
+  padding-left: 60px;
 }
 
 .q5_table_cell:first-child {
