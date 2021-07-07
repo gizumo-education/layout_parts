@@ -18,7 +18,7 @@
   margin-left: 0;
 }
 
-.q6_img_large .q6_img:hover  {
+.q6_img_large:hover .q6_img  {
   transform: scale(1.5);
 }
 
@@ -63,15 +63,20 @@
 .layout_key_visual_text {
   width: 200%;
   height: 540px;
+  padding: 80px 0;
   font-size: 0;
+  box-sizing: border-box;
 }
 
 .layout_key_visual p {
   width: 50%;
   height: 100%;
-  line-height: 540px;
-  font-size: 230px;
+  font-size: 200px;
   display: inline-block;
+}
+
+.layout_key_visual_text p {
+  animation: loop 10s linear infinite;
 }
 
 @keyframes loop {
@@ -81,21 +86,4 @@
   to {
     transform: translateX(-100%);
   }
-}
-
-@keyframes loop2 {
-  0% {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-200%);
-  }
-}
-
-.layout_key_visual_text p:first-child {
-  animation: loop 20s -30s linear infinite;
-}
-
-.layout_key_visual_text p:last-child {
-  animation: loop2 20s linear infinite;
 }
