@@ -61,7 +61,6 @@
 }
 
 .layout_key_visual_text {
-  width: 200%;
   height: 540px;
   padding: 80px 0;
   font-size: 0;
@@ -69,7 +68,6 @@
 }
 
 .layout_key_visual p {
-  width: 50%;
   height: 100%;
   font-size: 200px;
   display: inline-block;
@@ -83,7 +81,7 @@
   0% {
     transform: translateX(100%);
   }
-  to {
+  100% {
     transform: translateX(-100%);
   }
 }
