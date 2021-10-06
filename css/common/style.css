@@ -45,6 +45,10 @@
   vertical-align: middle;
 }
 
+.layout_head_logo_img {
+  height: 47px;
+}
+
 .layout_head_menu {
   width: 150px;
   height: 50px;
