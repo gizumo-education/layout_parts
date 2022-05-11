@@ -120,7 +120,7 @@
 }
 
 
-.sumple_page_scroll {
+.sample_page_scroll {
   width: 50px;
   height: 50px;
   padding: 24px;
@@ -128,7 +128,7 @@
   background-color: #eee;
 }
 
-.sumple_page_scroll::before {
+.sample_page_scroll::before {
   content: "";
   display: block;
   transform: rotate(-45deg) translateY(-45%) translateX(-15%);
@@ -144,7 +144,7 @@
   text-align: center;
 }
 
-.sumple_q4_inner {
+.sample_q4_inner {
   padding: 30px 0;
   margin: 13px auto 0 auto;
   background-color: #eee;
@@ -152,20 +152,20 @@
   justify-content: space-around;
 }
 
-.sumple_q4_white {
+.sample_q4_white {
   width: 200px;
   background-color: #fff;
 }
 
-.sumple_q4_white_small {
+.sample_q4_white_small {
   padding: 30px 0;
 }
 
-.sumple_q4_white_large {
+.sample_q4_white_large {
   height: 130px;
 }
 
-.sumple_q4_blue {
+.sample_q4_blue {
   width: 90px;
   height: 20px;
   padding: 3px 0;
@@ -173,19 +173,19 @@
   background-color: #e3f6ff;
 }
 
-.sumple_q4_inner, .sumple_q4_white, .sumple_q4_blue,
-.sumple_q5_inner, .sumple_q5_white, .sumple_q5_white_calc {
+.sample_q4_inner, .sample_q4_white, .sample_q4_blue,
+.sample_q5_inner, .sample_q5_white, .sample_q5_white_calc {
   box-sizing: border-box;
 }
 
-.sumple_q5_inner {
+.sample_q5_inner {
   padding: 30px 50px;
   margin-top: 13px;
   background-color: #eee;
 }
 
-.sumple_q5_white,
-.sumple_q5_white_calc {
+.sample_q5_white,
+.sample_q5_white_calc {
   padding: 10px;
   font-size: 12px;
   line-height: 24px;
