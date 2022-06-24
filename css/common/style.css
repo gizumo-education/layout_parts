@@ -94,6 +94,10 @@
   padding-top: 10px;
 }
 
+.layout_head_menu ul li span {
+  color: rgb(25, 148, 197);
+}
+
 .layout_head_menu ul li:last-child {
   padding-bottom: 10px;
 }
@@ -128,8 +132,7 @@
   background-color: #eee;
 }
 
-.sample_page_scroll::before {
-  content: "";
+.sample_page_scroll i {
   display: block;
   transform: rotate(-45deg) translateY(-45%) translateX(-15%);
   width: 15px;
