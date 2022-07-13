@@ -7,6 +7,8 @@ $(function(){
 
   /**
    * クラスの数がちゃんと変わっているか確認する関数
+   * htmlにはチェック対象に`data-check=""`属性をつける。
+   * 値はスネークケースで (前半か後半か)_(既存クラスの数)を指定する。
    * @param {number} data 既存クラスの数
    * @param {string} half 前半か後半か。前半→firstHalf、後半→latterHalf
    */
