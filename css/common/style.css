@@ -132,15 +132,6 @@
   background-color: #eee;
 }
 
-.sample_page_scroll i {
-  display: block;
-  transform: rotate(-45deg) translateY(-45%) translateX(-15%);
-  width: 15px;
-  height: 15px;
-  border-top: 1px solid #000;
-  border-right: 1px solid #000;
-}
-
 .q1_inner_title,
 .q2_inner_title {
   font-size: 14px;
