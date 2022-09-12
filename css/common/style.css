@@ -123,15 +123,6 @@
   text-align: center;
 }
 
-
-.sample_page_scroll {
-  width: 50px;
-  height: 50px;
-  padding: 24px;
-  box-sizing: border-box;
-  background-color: #eee;
-}
-
 .q1_inner_title,
 .q2_inner_title {
   font-size: 14px;
